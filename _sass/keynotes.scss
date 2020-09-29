@@ -1,0 +1,46 @@
+.home-keynote {
+  margin-top: 1rem;
+}
+
+.home-keynote:first-child {
+  margin-top: 0;
+}
+
+.home-keynote-headshot {
+  max-width: 100%;
+}
+
+@media only screen and (min-width: 800px) {
+  .home-keynote {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch; // Make items fit 100% of the row height
+  }
+
+  .home-keynote:nth-child(odd) {
+    flex-direction: row-reverse;
+  }
+
+  .home-keynote-headshot-wrapper {
+    overflow: hidden;
+    flex: 1;
+    background-size: cover;
+  }
+
+  .home-keynote-headshot {
+    opacity: 0;
+    height: 1px;
+  }
+
+  .home-keynote-description {
+    flex: 1;
+
+    h3 {
+      margin: 0
+    }
+
+    > h3, p {
+      padding: 0 1rem;
+    }
+  }
+}

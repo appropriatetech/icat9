@@ -1,0 +1,38 @@
+<html>
+<head>
+  <title>9th International Conference on Appropriate Technology</title>
+  <link rel="stylesheet" href="assets/main.css">
+</head>
+
+<body class="conference-home">
+  <header>
+    <h1>9th International Conference on Appropriate Technology</h1>
+    <img class="globe" src="assets/img/icat-globe-large-red.png">
+    <div class="subtitle conference-theme">
+      Technology Exchange and Employment Creation for Community Empowerment:
+      Cross-polinating Innovative Models
+    </div>
+    <div class="conference-dates">
+      <time datetime="2020-09-23">23</time>-<time datetime="2020-09-27">27 September, 2020</time>
+    </div>
+  </header>
+
+  <section class="home-theme">
+    {{ content }}
+  </section>
+
+  <section class="home-keynotes">
+    <h2>Keynote Speakers</h2>
+
+    {% for keynote in site.keynotes %}
+      {% include home-keynote.html %}
+    {% endfor %}
+  </section>
+
+  <section class="home-workshops">
+    <h2>Workshops</h2>
+
+
+  </section>
+</body>
+</html>

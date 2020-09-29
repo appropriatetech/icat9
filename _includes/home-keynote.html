@@ -1,0 +1,17 @@
+<div class="home-keynote">
+  <div
+    class="home-keynote-headshot-wrapper"
+    style="background-image: url({{ keynote.headshot }}); background-position: {{ keynote.headshot_position }};">
+    <img
+      class="home-keynote-headshot"
+      src="{{ keynote.headshot }}"
+      alt="{{ keynote.name }} {{ keynote.headshot_description }}">
+  </div>
+
+  <div class="home-keynote-description">
+    <h3>{{ keynote.name }}</h3>
+    <p>
+      {{ keynote.content }}
+    </p>
+  </div>
+</div>
