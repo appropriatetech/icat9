@@ -16,22 +16,58 @@ header, section {
   max-width: 60rem;
 }
 
-.conference-home header {
-  position: relative;
-  height: 16rem;
-  max-width: 60rem;
-  box-sizing: border-box;
+.conference-home > header {
+  background-image: url('/assets/img/icat-vertical-header-bg.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center 8.9rem;
+  background-color: $red;
+  color: white;
 
-  display: flex;
-  flex-direction: column;
-  padding: 1rem 4rem 1rem 16rem;
-  background-color: $light-blue;
+  > h1, .conference-theme, .conference-dates {
+    padding: 0 1rem;
+  }
+
+  .conference-theme {
+    font-weight: bold;
+  }
 
   .globe {
-    position: absolute;
-    left: 4rem;
-    top: 4rem;
     height: 8rem;
+  }
+
+  .globe-wrapper {
+    margin: 0 0 8rem 0;
+    padding: 1rem 0 0 0;
+    background-color: $light-blue;
+    text-align: center;
+  }
+
+  @media only screen and (max-width: 599px) {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 1rem;
+  }
+
+  @media only screen and (min-width: 600px) {
+    position: relative;
+    height: 16rem;
+    max-width: 60rem;
+    box-sizing: border-box;
+
+    background-image: url('/assets/img/icat-horizontal-header-bg.png');
+    background-position:  11.5rem center;
+
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 4rem 1rem 18rem;
+
+    .globe-wrapper {
+      position: absolute;
+      left: 0;
+      top: 0;
+      padding: 4rem 0 4rem 4rem;
+    }
   }
 }
 
