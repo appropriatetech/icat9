@@ -1,6 +1,6 @@
 ---
 name: Denise Morado Nascimento
-headshot: /assets/img/denise-morado-nascimento.jpg
+headshot: /assets/keynotes/headshots/denise-morado-nascimento.jpg
 headshot_position: right
 ---
 
