@@ -1,7 +1,7 @@
 .home-keynote {
   margin-top: 1rem;
 
-  @media only screen and (min-width: 600px) and (max-width: 799px) {
+  @media only screen and (min-width: $medium-min) and (max-width: $medium-max) {
     &:nth-child(odd) .home-keynote-headshot-wrapper { float: right; margin: 0 0 1rem 1rem; }
     &:nth-child(even) .home-keynote-headshot-wrapper { float: left; margin: 0 1rem 1rem 0; }
   }
@@ -21,16 +21,16 @@
   width: 100%;
   background-size: cover;
 
-  @media only screen and (max-width: 799px) {
+  @media only screen and (max-width: $medium-max) {
     height: 20rem;
   }
 
-  @media only screen and (min-width: 600px) and (max-width: 799px) {
+  @media only screen and (min-width: $medium-min) and (max-width: $medium-max) {
     width: 20rem;
   }
 }
 
-@media only screen and (min-width: 800px) {
+@media only screen and (min-width: $large-min) {
   .home-keynote {
     display: flex;
     flex-direction: row;
