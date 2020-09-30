@@ -14,20 +14,6 @@ body {
 header, section {
   margin: 0 auto;
   max-width: 60rem;
-
-  &::before {
-    width: 10px;
-    height: 100px;
-    background-color: green;
-    content: ' ';
-  }
-
-  &::after {
-    width: 10px;
-    height: 100px;
-    background-color: green;
-    content: ' ';
-  }
 }
 
 .conference-home header {
