@@ -1,5 +1,10 @@
 .home-keynote {
   margin-top: 1rem;
+
+  @media only screen and (min-width: 600px) and (max-width: 799px) {
+    &:nth-child(odd) .home-keynote-headshot-wrapper { float: right; margin: 0 0 1rem 1rem; }
+    &:nth-child(even) .home-keynote-headshot-wrapper { float: left; margin: 0 1rem 1rem 0; }
+  }
 }
 
 .home-keynote:first-child {
@@ -7,7 +12,22 @@
 }
 
 .home-keynote-headshot {
-  max-width: 100%;
+  opacity: 0;
+  height: 1px;
+}
+
+.home-keynote-headshot-wrapper {
+  overflow: hidden;
+  width: 100%;
+  background-size: cover;
+
+  @media only screen and (max-width: 799px) {
+    height: 20rem;
+  }
+
+  @media only screen and (min-width: 600px) and (max-width: 799px) {
+    width: 20rem;
+  }
 }
 
 @media only screen and (min-width: 800px) {
@@ -22,14 +42,7 @@
   }
 
   .home-keynote-headshot-wrapper {
-    overflow: hidden;
     flex: 1;
-    background-size: cover;
-  }
-
-  .home-keynote-headshot {
-    opacity: 0;
-    height: 1px;
   }
 
   .home-keynote-description {
