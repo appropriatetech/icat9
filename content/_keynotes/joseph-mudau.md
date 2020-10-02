@@ -1,5 +1,5 @@
 ---
-name: joseph-mudau
+name: Joseph Mudau
 headshot: /assets/keynotes/headshots/joseph-mudau.jpg
 headshot_position: center 20%
 ---
