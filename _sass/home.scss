@@ -37,7 +37,7 @@ header, section {
 .conference-home > header {
   display: flex;
   flex-direction: row;
-  background-image: url('/assets/img/icat-vertical-header-bg.jpg');
+  background-image: url('img/icat-vertical-header-bg.jpg');
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center 8.9rem;
@@ -79,7 +79,7 @@ header, section {
     max-width: 60rem;
     box-sizing: border-box;
 
-    background-image: url('/assets/img/icat-horizontal-header-bg.jpg');
+    background-image: url('img/icat-horizontal-header-bg.jpg');
     background-position:  11.5rem center;
 
     display: flex;
