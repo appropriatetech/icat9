@@ -26,31 +26,49 @@ $xlarge-min: 1600px;
 body {
   margin: 0;
   padding: 0;
+  line-height: 1.5;
   font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  color: #444;
 }
 
 header, section {
-  margin: 0 auto;
+  margin: 0;
+}
+
+section {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  background-color: #eee;
+}
+
+p, ol, ul, h1, h2, h3, h4, h5, h6 {
+  box-sizing: border-box;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
   max-width: 60rem;
+}
 
-  p, h1, h2, h3, h4, h5, h6 {
-    padding-left: 1rem;
-    padding-right: 1rem;
-  }
+ol, ul {
+  padding-left: 2rem;
+}
 
-  ol, ul {
-    padding-left: 2rem;
-    padding-right: 1rem;
-  }
+h2 {
+  text-align: center;
+  font-weight: normal;
+  font-size: 2rem;
+}
+
+h3 {
+  font-weight: normal;
+  font-size: 1.5rem;
 }
 
 .conference-home > header {
   display: flex;
   flex-direction: row;
-  background-image: url('img/icat-vertical-header-bg.jpg');
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center 8.9rem;
   background-color: $red;
   color: white;
 
@@ -70,26 +88,35 @@ header, section {
     background-color: $light-blue;
   }
 
+  .text-wrapper {
+    background-image: url('img/icat-vertical-header-bg.jpg');
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: contain;
+  }
+
   @media only screen and (max-width: $small-max) {
     display: flex;
     flex-direction: column;
     padding-bottom: 1rem;
 
     .globe-wrapper {
-      margin: 0 0 8rem 0;
+      margin: 0;
       padding: 1rem 0 0 0;
       background-color: $light-blue;
       text-align: center;
+    }
+
+    .text-wrapper {
+      padding-top: 8rem;
     }
   }
 
   @media only screen and (min-width: $medium-min) {
     position: relative;
     min-height: 16rem;
-    max-width: 60rem;
     box-sizing: border-box;
 
-    background-image: url('img/icat-horizontal-header-bg.jpg');
     background-position:  11.5rem center;
 
     display: flex;
@@ -98,16 +125,38 @@ header, section {
     padding: 0;
 
     .text-wrapper {
-      padding: 2rem 1rem 1rem 8rem;
+      padding: 2rem 0 1rem 8rem;
+      flex-grow: 1;
+      background-image: url('img/icat-horizontal-header-bg.jpg');
+      background-repeat: no-repeat;
+      background-position: left center;
+      background-size: contain;
+
+      > * {
+        max-width: 39rem;
+        box-sizing: border-box;
+        margin-left: 0;
+        margin-right: 0;
+      }
     }
+
     .globe-wrapper {
       display: flex;
       flex-direction: row;
       align-items: center;
+      justify-content: flex-end;
+      flex-basis: 12rem;
+      flex-grow: 1;
       margin: 0;
-      padding: 1rem 0 1rem 4rem;
+      padding: 1rem 0 1rem 0;
+      min-width:12rem;
     }
   }
+}
+
+.home-theme {
+  background-color: $dark-blue;
+  color: white;
 }
 
 @import "keynotes";

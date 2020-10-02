@@ -35,6 +35,7 @@
     display: flex;
     flex-direction: row;
     align-items: stretch; // Make items fit 100% of the row height
+    justify-content: center;
   }
 
   .home-keynote:nth-child(odd) {
@@ -43,10 +44,12 @@
 
   .home-keynote-headshot-wrapper {
     flex: 1;
+    max-width: 30rem;
   }
 
   .home-keynote-description {
     flex: 1;
+    max-width: 30rem;
 
     h3 {
       margin: 0

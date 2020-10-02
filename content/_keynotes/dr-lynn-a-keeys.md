@@ -1,7 +1,7 @@
 ---
 name: Dr. Lynn A. Keeys
 headshot: /assets/keynotes/headshots/dr-lynn-a-keeys.jpg
-headshot_position: center 85%
+headshot_position: 70% 85%
 ---
 
 A creative visionary and strategist, Dr. Keeys is enthusiastic about the importance of building the project management skills across Africa and achieving positive organizational and societal impact. A former diplomat with US Agency for International Development and international consultant, Dr. Keeys draws on 30 years of experience in adaptive and emergent strategy, portfolio, program and project management, benefits co-creation and organizational leadership in the international and sustainable development field.

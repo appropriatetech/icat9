@@ -1,7 +1,7 @@
 ---
 name: Fr. Godfrey Nzamujo
 headshot: /assets/keynotes/headshots/fr-godfrey-nzamujo.jpg
-headshot_position: 85%
+headshot_position: 78% center
 ---
 
 Father Dr Godfrey Nzamujo is the founder and director of the [_Songhaï Center_]((http://www.songhai.org/index.php/en/home-en)), a pioneering farm, training and research center in Porto-Novo, Benin. Begun in 1985 on a single hectare of land, the Songhaï Center has expanded to at least 17 sites in Africa, including eight in Benin and others in Nigeria, Uganda, Sierra Leone, Liberia, among other countries. With the motto 'Commitment to Excellence', Songhaï symbolizes Nzamujo's belief that Africa's ecological characteristics are advantages for a regenerative agricultural and developmental paradigm, rather than impediments.
