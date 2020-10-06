@@ -2,7 +2,7 @@
   text-align: center;
 }
 
-.btn {
+a.btn {
   display: inline-block;
   padding: 0.5rem 1rem;
   border: 1px solid white;
@@ -10,7 +10,7 @@
   background-color: $light-blue;
   color: #222;
   text-decoration: none;
-  transition: color 0.1s, background-color 0.1s;
+  transition: color 0.2s, background-color 0.2s;
 
   &:hover {
     background-color: $red;

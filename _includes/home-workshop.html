@@ -1,0 +1,17 @@
+<div class="home-workshop">
+  <h4>{{ workshop.title }}</h4>
+
+  {% if workshop.scale == 'days' %}
+    <p class="home-workshop-schedule">
+      <time datetime="{{ workshop.start }}">{{ workshop.start | date: '%A %-d %b'}}</time>
+      {% if workshop.end != workshop.start %}
+        &mdash;
+        <time datetime="{{ workshop.end }}">{{ workshop.end | date: '%A %-d %b'}}</time>
+      {% endif %}
+    </p>
+  {% endif %}
+
+  <div class="home-workshop-description">
+    {{ workshop.content }}
+  </div>
+</div>

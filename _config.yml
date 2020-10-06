@@ -35,8 +35,15 @@ sass:
 
 collections_dir: content
 collections:
-  - keynotes
-  - workshops
+  keynotes: null
+  workshops:
+    order:
+      - augmented-reality.md
+      - ethics-and-appropriate-technology-workshop.md
+      - business-matters-workshop.md
+      - socially-relevant-research.md
+      - raspberry-pi-for-prototyping.md
+      - open-building-and-appropriate-technology.md
 
 
 # Exclude from processing.

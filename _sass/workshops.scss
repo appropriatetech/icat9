@@ -1,0 +1,21 @@
+.home-workshop h4 {
+  margin-bottom: 0;
+}
+
+.home-workshop-schedule {
+  margin-top: 0;
+  font-style: italic;
+}
+
+@media only screen and (min-width: $large-min) {
+  .home-workshops-wrapper {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+  }
+
+  .home-workshop {
+    width: 50%;
+    max-width: $large-max-content-width / 2;
+  }
+}

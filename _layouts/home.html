@@ -37,7 +37,28 @@
   <section class="home-workshops">
     <h2>Workshops</h2>
 
+    <p>Workshops will be held throughout the conference. The purpose of the workshops is to provide participants with a more in depth experience of the particular technologies presented during the conference, and to promote Appropriate Technology as a relevant field for technology practitioners. Unless otherwise specified, cost of participation in workshops is included in <a href="https://form.jotform.com/202643297584059">conference registration</a>.</p>
+    <p><strong>All workshops will be held virtually.</strong></p>
 
+    <h3>Full-day Workshops</h3>
+
+    <div class="home-workshops-wrapper">
+      {% for workshop in site.workshops %}
+        {% if workshop.scale == 'days' %}
+          {% include home-workshop.html %}
+        {% endif %}
+      {% endfor %}
+    </div>
+
+    <h3>2-hour Workshops</h3>
+
+    <div class="home-workshops-wrapper">
+      {% for workshop in site.workshops %}
+        {% if workshop.scale == 'hours' %}
+          {% include home-workshop.html %}
+        {% endif %}
+      {% endfor %}
+    </div>
   </section>
 </body>
 </html>

@@ -1,6 +1,10 @@
 .home-keynote {
   margin-top: 1rem;
 
+  h3 {
+    text-align: left;
+  }
+
   @media only screen and (min-width: $medium-min) and (max-width: $medium-max) {
     &:nth-child(odd) .home-keynote-headshot-wrapper { float: right; margin: 0 0 1rem 1rem; }
     &:nth-child(even) .home-keynote-headshot-wrapper { float: left; margin: 0 1rem 1rem 0; }
@@ -44,12 +48,12 @@
 
   .home-keynote-headshot-wrapper {
     flex: 1;
-    max-width: 30rem;
+    max-width: $large-max-content-width / 2;
   }
 
   .home-keynote-description {
     flex: 1;
-    max-width: 30rem;
+    max-width: $large-max-content-width / 2;
 
     h3 {
       margin: 0
