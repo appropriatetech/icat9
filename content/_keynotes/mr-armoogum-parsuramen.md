@@ -1,6 +1,6 @@
 ---
 name: Mr. Armoogum Parsuramen
-headshot: /assets/keynotes/headshots/mr-armoogum-parsuramen.jpg
+headshot: assets/keynotes/headshots/mr-armoogum-parsuramen.jpg
 headshot_position: center 20%
 ---
 

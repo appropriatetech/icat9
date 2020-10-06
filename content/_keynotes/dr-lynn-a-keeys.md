@@ -1,6 +1,6 @@
 ---
 name: Dr. Lynn A. Keeys
-headshot: /assets/keynotes/headshots/dr-lynn-a-keeys.jpg
+headshot: assets/keynotes/headshots/dr-lynn-a-keeys.jpg
 headshot_position: 70% 85%
 ---
 

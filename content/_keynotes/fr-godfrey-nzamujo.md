@@ -1,6 +1,6 @@
 ---
 name: Fr. Godfrey Nzamujo
-headshot: /assets/keynotes/headshots/fr-godfrey-nzamujo.jpg
+headshot: assets/keynotes/headshots/fr-godfrey-nzamujo.jpg
 headshot_position: 78% center
 ---
 

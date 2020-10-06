@@ -1,6 +1,6 @@
 ---
 name: Amb. Josefa Leonel Correia Sacko
-headshot: /assets/keynotes/headshots/amb-josefa-leonel-correia-sacko.jpg
+headshot: assets/keynotes/headshots/amb-josefa-leonel-correia-sacko.jpg
 headshot_position: center 20%
 ---
 
